@@ -1,10 +1,69 @@
 <!DOCTYPE html>
 <html>
+<style>
+    body,
+    html {
+        height: 100%;
+        margin: 0;
+    }
 
-<head>
+    .bgimg {
+        background-image: url('./25sepnews4-1.png');
+        height: 100%;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        color: white;
+        font-family: "Courier New", Courier, monospace;
+        font-size: 25px;
+    }
 
-</head>
+    .topleft {
+        position: absolute;
+        top: 0;
+        left: 16px;
+    }
+
+    .bottom {
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        margin-left: -206px;
+    }
+
+    .middle {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    hr {
+        margin: auto;
+        width: 40%;
+    }
+</style>
+
 <body>
-    <h1>HAHA</h1>
+
+    <div class="bgimg">
+        <div class="topleft">
+            <img src="./reshift_logo_mic.png" style="
+    width: 150px;
+    margin-top: 25px;
+">
+        </div>
+        <div class="middle">
+            <h1>COMING SOON</h1>
+            <hr>
+            <p>Welcome to <b>Reshift Digital</b>!</p>
+        </div>
+        <div class="bottom">
+            <small>&copy; Copyright 2020, Reshift Digital</small>
+        </div>
+    </div>
+
 </body>
+
 </html>
